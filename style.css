@@ -6,7 +6,6 @@ body {
   font-family: Arial;
 }
 .container {
-  justify-content: center;
   max-width: 100%;
   margin: 0 auto;
   padding: 20px;
@@ -40,14 +39,21 @@ h1 {
 }
 
 .card-container {
+
   width:100%;
   display: flex;
+  align-content: center;
   grid-gap: 30px;
   flex-wrap: wrap;
+  justify-content: center;
 }
-
+@media (max-width: 400px) {
+  .card {
+    flex: 100%;
+  }
+}
 .card {
-  
+
   min-width: 340px;
   color:#fff;
   border-radius: 10px;

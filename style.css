@@ -81,9 +81,9 @@ h1 {
   text-overflow: ellipsis;
   margin-bottom: 0;
 }
-@media screen and (max-width: 10000px) {
+@media screen and (max-width: 600px) {
   .card {
-    flex: 100%;
+    Width: 100%;
   }
  .card-container{
   flex-direction: column;

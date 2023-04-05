@@ -85,4 +85,7 @@ h1 {
   .card {
     flex: 100%;
   }
+ .card-container{
+  flex-direction: column;
+ }
 }

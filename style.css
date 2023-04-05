@@ -47,7 +47,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
 }
-@media (max-width: 800px) {
+@media only screen and (max-width: 400px) {
   .card {
     flex: 100%;
   }

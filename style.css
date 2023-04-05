@@ -81,7 +81,7 @@ h1 {
   text-overflow: ellipsis;
   margin-bottom: 0;
 }
-@media only screen and (max-width: 10000px) {
+@media screen and (max-width: 10000px) {
   .card {
     flex: 100%;
   }

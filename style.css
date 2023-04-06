@@ -83,7 +83,7 @@ h1 {
 }
 @media screen and (max-width: 600px) {
   .card {
-    min-width: 100px;
-    flex: 70% !important;
+    min-width: 80%;
+    flex-direction: column;
   }
 }

@@ -50,7 +50,7 @@ h1 {
 
 .card {
 
-  min-width: 340px;
+  min-width: 460px;
   color:#fff;
   border-radius: 10px;
   padding: 20px;
@@ -83,6 +83,7 @@ h1 {
 }
 @media screen and (max-width: 600px) {
   .card {
-    flex: 70% !important;
+    min-width: 300px;
+    flex: 100% !important;
   }
 }

@@ -83,6 +83,6 @@ h1 {
 }
 @media screen and (max-width: 600px) {
   .card {
-    flex: 70% ;
+    flex: 70% !important;
   }
 }
